@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import Facilities from '../components/Facilities';
-import Trainers from '../components/Trainers';
-import MembershipPlans from '../components/MembershipPlans';
-import Testimonials from '../components/Testimonials';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+import Navbar from '../components/HomePageComponent/Navbar';
+import Hero from '../components/HomePageComponent/Hero';
+import Facilities from '../components/HomePageComponent/Facilities';
+import Trainers from '../components/HomePageComponent/Trainers';
+import MembershipPlans from '../components/HomePageComponent/MembershipPlans';
+import Testimonials from '../components/HomePageComponent/Testimonials';
+import Contact from '../components/HomePageComponent/Contact';
+import Footer from '../components/HomePageComponent/Footer';
 function Home() {
   return (
     <div className=" text-white">
