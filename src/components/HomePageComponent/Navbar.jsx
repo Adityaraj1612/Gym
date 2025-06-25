@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white fixed w-full z-50 shadow-md">
+    <nav className="bg-[rgba(24,31,48,0.1)] text-white fixed w-full z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold">Brahmastra</div>
@@ -19,7 +19,8 @@ const Navbar = () => {
         {/* Contact Button */}
         <a
           href="#contact"
-          className="bg-yellow-300 hover:bg-yellow-200 text-black font-semibold px-4 py-2 rounded-md transition"
+          className="text-black font-semibold px-6 py-3 rounded-md transition"
+          style={{ backgroundColor: '#D7FC00' }}
         >
           Contact Us
         </a>
