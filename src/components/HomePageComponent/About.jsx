@@ -4,9 +4,10 @@ import gymImage from "../../assets/about-image.png";
 const About = () => {
   return (
     <section
+      id='about'
       className="w-full py-16 px-6 md:px-20"
       style={{
-        background: "linear-gradient(to top right, #323F1D 10%, #181F30 20%, #181F30 100%)",
+        background: "linear-gradient(to top right, #323F1D 13%, #181F30 20%, #181F30 100%)",
       }}      
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
