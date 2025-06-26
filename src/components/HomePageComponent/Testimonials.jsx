@@ -1,4 +1,4 @@
-/* eslint-disable no-irregular-whitespace */
+
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
